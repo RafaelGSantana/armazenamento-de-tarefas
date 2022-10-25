@@ -17,7 +17,7 @@ Nesta ferramenta é possivel:
 
 Para rodar a aplicação no seu computador, você deve:
 
-#### Clonar o repositório.
+### Clonar o repositório.
 
 Para isso, abra o terminal do seu computador e no local de sua preferência, execute o comando abaixo, copiando-o e pressionando "ENTER"
 ```
@@ -29,7 +29,7 @@ Após concluir clonagem do projeto, entre na pasta do projeto, executando no ter
   cd armazenamento-de-tarefas
 ```
 
-#### Executar o back-end
+### Executar o back-end
 
 Após clonar o repositório, execute os seguintes comandos
 
@@ -50,7 +50,7 @@ Para rodar o servidor na sua máquina:
 
 Com isso o back-end já estará rodando na sua máquina.
 
-#### Executar o front-end
+### Executar o front-end
 
 Para executar o front-end da aplicação, navegue até a pasta do projeto "armazenamento-de-tarefas", pelo terminal, e execute os seguintes comandos:
 
