@@ -1,0 +1,53 @@
+.task-item {
+   width: 100%;
+   padding: 1.5rem 2rem;
+   background-color: #fffafa;
+   border: none;
+   border-radius: 10px;
+   box-shadow:inset 0px 0px 6px #888;
+   list-style: none;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   .task-info {
+      width: 83%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: start;
+
+      
+      .task-title {
+         word-wrap: break-word;
+         width: 70%;
+      }
+
+      .task-conclusion-date {
+         text-align: start;
+         width: 25%;
+      }
+
+   }
+
+   .icons-wrapper {
+      width: 15%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+
+      svg {
+         width: 1.8rem;
+         height: 1.8rem;
+         color: #555;
+         cursor: pointer;
+
+         transition: color 0.4s;
+
+         &:hover {
+            color: rgb(237, 178, 48);
+         }
+      }
+   }
+}
